@@ -1,0 +1,35 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "admin",
+      "pass": "123"
+    }
+  ],
+  "vuelosArrived": [
+    {
+      "id": "L394",
+      "From": "Cali",
+      "Comentarios": "llegando"
+    },
+    {
+      "id": "fde34",
+      "From": "Medellin",
+      "Comentarios": "Llegando"
+    },
+    {
+      "id": "fd",
+      "To": "e",
+      "gate": "f",
+      "Comentarios": "dff"
+    }
+  ],
+  "vuelosDeapertures": [
+    {
+      "id": "L9DW",
+      "To": "Mexico",
+      "gate": "B3",
+      "Comentarios": "Atrasado"
+    }
+  ]
+}

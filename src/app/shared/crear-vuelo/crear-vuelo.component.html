@@ -1,0 +1,24 @@
+<form action="" (ngSubmit)="crearVuelo()">
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Vuelo Id</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Codigo" [(ngModel)]="codigo" name="hola">
+  </div>
+  <div class="row">
+   <div class="col">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">From</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="From..." [(ngModel)]="from" name="from">
+      </div>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Comentario</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Comentario" [(ngModel)]="comentario" name="Comentario">
+      </div>
+    </div>
+    <button class="btn btn-primary">Crear</button>
+  </div>
+</form>
